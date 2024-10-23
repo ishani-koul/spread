@@ -129,14 +129,16 @@ article {
 
 p {
 	margin-bottom: 1rem;
+	line-height: 1.5;
 }
 
-/* SECTION 1 TITLE */
-.section-title.section1 {
+/* SECTION TITLES */
+.section-title {
     border-top-style: solid;
 	border-top-color:  #A1A1A1; 
 	border-bottom-style: solid;
-	border-top-color:  #A1A1A1; 
+	border-bottom-color:  #A1A1A1; 
+	height: 30vh;
 }
 
 h3 {
@@ -161,9 +163,17 @@ h3 {
 	font-style: italic;
 	color: var(--main-bg-color);
 	-webkit-text-stroke: 0.8px var(--main-text-color); 
-
 }
 
-
+/* SUBSECTION TITLES */
+.subsection {
+	font-size: calc(var(--root-size) * 1.8);
+	text-align: left; 
+    margin-left: 1rem; 
+	margin-bottom:-1.5rem;
+	font-style: italic;
+	color: var(--main-bg-color);
+	-webkit-text-stroke: 0.8px var(--main-text-color); 
+}
 
 /* ---------- MEDIA QUERIES: DESKTOP ---------- */
