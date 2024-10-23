@@ -45,6 +45,7 @@ body {
     align-items: flex-end; 
     flex: 1; 
     position: relative; 
+	margin: 0;
 }
 
 
@@ -115,5 +116,54 @@ address, time {
 h1 {
 	margin-left: 0.5rem;
 }
+
+
+/* BODY TEXT */
+article {
+	margin-top: 2rem; 
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+    padding: 1rem; 
+	margin-bottom: 5rem;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+/* SECTION 1 TITLE */
+.section-title.section1 {
+    border-top-style: solid;
+	border-top-color:  #A1A1A1; 
+	border-bottom-style: solid;
+	border-top-color:  #A1A1A1; 
+}
+
+h3 {
+    font-family: var(--title-font-family);
+    font-size: calc(var(--root-size) * 1.5);
+    text-align: right; 
+    margin: 1rem; 
+    width: 70vw; 
+    margin-left: auto; 
+}
+
+.section-title {
+	font-family: var(--title-font-family);
+    font-size: calc(var(--root-size) * 2);
+}
+
+.section-emphasis {
+	font-size: calc(var(--root-size) * 3);
+	margin-top: 3.5rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	font-style: italic;
+	color: var(--main-bg-color);
+	-webkit-text-stroke: 0.8px var(--main-text-color); 
+
+}
+
+
 
 /* ---------- MEDIA QUERIES: DESKTOP ---------- */
