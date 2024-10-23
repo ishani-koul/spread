@@ -17,7 +17,7 @@
   }
 
 body {
-	margin: 2vw;
+	margin: 0;
 	background-color: var(--main-bg-color);
 	color: var(--main-text-color);
 	font-family: var(--body-font-family);
@@ -34,15 +34,19 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+	border-bottom-style: solid;
+	border-bottom-color: #A1A1A1; 
+
 }
 
 .header-main {
     display: flex;
     flex-direction: column; 
     align-items: flex-end; 
-    margin: 1rem;
     flex: 1; 
+    position: relative; 
 }
+
 
 #main-title-desktop{
 	display: none;
@@ -69,7 +73,7 @@ body {
 
 .line {
     display: block;
-    width: 30vw;
+    width: 40vw;
     height: 1px;
     background: var(--main-text-color);
 }
@@ -82,7 +86,7 @@ body {
     border-bottom: 0.5rem solid transparent;
     border-left: 0.5rem solid #F2F0EF;
     position: absolute;
-    left: 30vw;
+    left: 40vw;
     bottom: -0.5rem;
 }
 
@@ -92,6 +96,7 @@ address, time {
 }
 
 .header-white {
+	overflow-x: hidden;
     display: flex;
     flex-direction: column;
     text-align: left; 
@@ -103,7 +108,12 @@ address, time {
 	color: var(--main-bg-color);
 	-webkit-text-stroke: 0.8px var(--main-text-color); 
     /* text-stroke: 0.8px var(--main-text-color);   */
+	border-left-style: solid;
+	border-left-color: #A1A1A1; 
+}
 
+h1 {
+	margin-left: 0.5rem;
 }
 
 /* ---------- MEDIA QUERIES: DESKTOP ---------- */
