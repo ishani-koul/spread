@@ -1,0 +1,74 @@
+/* FONTS */
+/* Xanh Mono  */ @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Xanh+Mono:ital@0;1&display=swap');
+/* Roboto Mono */ @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Xanh+Mono:ital@0;1&display=swap');
+
+
+:root {
+	--root-size: 1.2rem;
+	--main-bg-color: #1B1B1B;
+	--main-text-color: #F2F0EF;
+	--title-font-family: "Xanh Mono", serif;
+    --title-font-weight: 400;
+    --title-font-style: normal;
+	--body-font-family: "Roboto Mono", serif;
+	--body-font-optical-sizing: auto;
+	--body-font-style: normal;
+
+  }
+
+body {
+	margin: 2vw;
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+	font-family: var(--body-font-family);
+}
+
+/* mobile layout */
+/* TITLE */
+.header-main {
+    display: flex; 
+    align-items: center; 
+	flex-direction: column;
+    align-items: flex-end;
+	margin: 1rem;
+}
+
+#main-title {
+    font-family: var(--title-font-family);
+    font-size: calc(var(--root-size) * 2);
+	margin-right: 0;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.arrows-container {
+    display: flex; 
+    flex-direction: column; 
+	margin-top: 0;
+    margin-left: 1rem; 
+}
+
+#arrow {
+    display: block;
+    position: relative;
+    margin-bottom: 2rem; 
+}
+
+.line {
+    display: block;
+    width: 30vw;
+    height: 1px;
+    background: var(--main-text-color);
+}
+
+.triangle {
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-top: 0.5rem solid transparent; 
+    border-bottom: 0.5rem solid transparent; 
+    border-left: 0.5rem solid #F2F0EF; 
+    position: absolute; 
+    left: 30vw; 
+    bottom: -0.5rem; 
+}
