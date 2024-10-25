@@ -123,16 +123,31 @@ address, time {
     flex: 1; 
 	font-family: var(--title-font-family);
 	font-style: italic;
-	font-size: calc(var(--root-size) * 3);
+	font-size: calc(var(--root-size) * 2.8);
 	color: var(--main-bg-color);
 	-webkit-text-stroke: 0.8px var(--main-text-color); 
     /* text-stroke: 0.8px var(--main-text-color);   */
 	border-left-style: solid;
 	border-left-color: #A1A1A1; 
+	overflow-y: hidden;
+	height: 60vh;
 }
 
 h1 {
 	margin-left: 0.5rem;
+}
+
+.header-white-mobile h1 {
+	animation: scroll 3s linear infinite; 
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-95%); 
+	}
 }
 
 /* BODY TEXT */
@@ -267,7 +282,7 @@ footer address {
 	display: none;
 }
 
-/* ---------- MEDIA QUERIES: DESKTOP ---------- */
+/* ---------- MEDIA QUERIES: TABLET TO DESKTOP ---------- */
 
 @media (min-width:600px) {
 
@@ -332,7 +347,7 @@ footer address {
 	#main-title-desktop {
 		display: block;
 		font-family: var(--title-font-family);
-		font-size: calc(var(--root-size) * 1.6);
+		font-size: calc(var(--root-size) * 1.5);
 		text-align: left; 
 		margin-bottom: 0;
 		padding-left: 1rem;
@@ -434,17 +449,17 @@ footer address {
 	}
 
 	.header-white h1 {
-		animation: scroll 3s linear infinite; 
+		animation: scroll 3s linear infinite; /* Apply the animation */
 	}
 
 	@keyframes scroll {
 		0% {
-			transform: translateY(0%); 
+			transform: translateY(0%); /* Start from below */
 		}
 		100% {
-			transform: translateY(-95%);
+			transform: translateY(-95%); /* Move all the way up */
 		}
-	}	
+	}
 	
 	/* BODY TEXT */
 
@@ -613,7 +628,7 @@ footer address {
 
 @media (min-width:623px) {
 	#main-title-desktop {
-		font-size: calc(var(--root-size)* 0.5);		
+		font-size: calc(var(--root-size)*1.5);		
 	}
 }
 
@@ -674,7 +689,6 @@ footer address {
 }
 
 
-
 @media (min-width:839px) {
 	#main-title-desktop {
 		font-size: calc(var(--root-size)* 2.4);		
@@ -686,7 +700,6 @@ footer address {
 		font-size: calc(var(--root-size) * 4.5);
 	}
 }
-
 
 
 @media (min-width:960px) {
@@ -747,9 +760,8 @@ footer address {
 	}
 
 	#main-title-desktop {
-		font-size: calc(var(--root-size)* 3.8);
+		font-size: calc(var(--root-size)* 3.6);
 	}
-
 
 	.header-white {
 		font-size: calc(var(--root-size) * 6.5);
