@@ -237,9 +237,9 @@ footer address {
 
 @media (min-width:1000px) {
 
-	main {
+	/* main {
 		display: none;
-	}
+	} */
 
 	footer {
 		display: none;
@@ -379,9 +379,15 @@ footer address {
 	}
 	
 	/* BODY TEXT */
+
+	main {
+		margin-top: -30rem;
+		width: 65vw;
+	}
+
 	article {
 		margin-top: 2rem; 
-		margin-right: 40%;
+		/* margin-right: 40%; */
 		margin-left: 0.5rem;
 		padding: 1rem; 
 		margin-bottom: 5rem;
@@ -399,7 +405,7 @@ footer address {
 	
 	/* SECTION TITLES */
 	.section-title {
-		margin-right: 40%;
+		/* margin-right: 40%; */
 		border-top-style: solid;
 		border-top-color:  #A1A1A1;
 		border-bottom-style: solid;
@@ -415,8 +421,10 @@ footer address {
 		text-align: right; 
 		margin: 1rem; 
 		width: 70vw; 
-		margin-left: auto;
+		/* margin-left: auto; */
 		margin-bottom: 3.5rem;
+		margin-right: 40%;
+
 	}
 	
 	#h3-in-general {
@@ -461,7 +469,7 @@ footer address {
 	
 	/* BLOCKQUOTE */
 	#quote {
-		margin-right: 40%;
+		/* margin-right: 40%; */
 		border-top-style: solid;
 		border-top-color:  #A1A1A1; 
 		border-bottom-style: solid;
