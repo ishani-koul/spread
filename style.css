@@ -25,6 +25,16 @@ body {
 	font-weight: var(--body-font-weight);
 }
 
+a:link { 
+	color: #edebeb;
+	text-decoration: underline;
+}
+
+a:hover {
+	color:#A1A1A1;
+	text-decoration: underline;
+}
+
 /* ---------- DEFAULT: MOBILE LAYOUT ---------- */
 
 /* TITLE */
