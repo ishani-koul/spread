@@ -301,7 +301,6 @@ footer address {
 
 @media (min-width:600px) {
 	
-	
 	body {
 		height: 100vh;
 	}
@@ -470,6 +469,7 @@ footer address {
 		display: block; 
 		bottom: 70vh;
 		width: 70vw;
+		/* 70vw */
 		max-height: 70vh;
 		overflow-y: auto;
 		overflow-x: hidden;
