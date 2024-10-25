@@ -565,7 +565,7 @@ footer address {
 	}
 	
 	blockquote {
-		margin: 1.5rem;
+		margin: 2rem;
 		margin-bottom: -0.5rem;
 		font-style: italic;
 		font-weight: 200;
@@ -595,7 +595,7 @@ footer address {
 	}
 	
 	footer p {
-		margin: 0; 
+		margin-left: 1rem; 
 	}
 	
 	footer address {
