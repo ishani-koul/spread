@@ -382,7 +382,9 @@ footer address {
 
 	main {
 		margin-top: -30rem;
-		width: 65vw;
+		width: 70vw;
+		max-height: 100vh;
+		overflow-y: scroll;
 	}
 
 	article {
@@ -420,7 +422,7 @@ footer address {
 		font-size: calc(var(--root-size) * 1.5);
 		text-align: right; 
 		margin: 1rem; 
-		width: 70vw; 
+		width: 67vw; 
 		/* margin-left: auto; */
 		margin-bottom: 3.5rem;
 		margin-right: 40%;
