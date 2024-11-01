@@ -58,6 +58,9 @@ a:hover {
 .header-white-print {
 	display: none;
 }
+.header-main-outer-print {
+	display: none;
+}
 
 #title-wrapper-mobile {
 	display: flex; 
@@ -1352,6 +1355,8 @@ footer address {
 		border-top: 0;
 		border-width: 1px;
 		width: 30vw;
+		margin-left: 70vw;
+		bottom: 100vw; 
 	}
 
 	.header-white-mobile {
