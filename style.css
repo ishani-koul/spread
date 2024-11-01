@@ -1331,14 +1331,11 @@ footer address {
 		/* padding-bottom: 2rem; */
 		margin-left: 2rem;
 	}
-
 	
-	/* WHITE? */
 	.header-white-print {
 		height: 100vh;
 		/* position: sticky; */
 		position: fixed;
-		overflow-y: hidden;
 		display: flex;
 		flex-direction: column;
 		text-align: left; 
@@ -1357,17 +1354,7 @@ footer address {
 		width: 30vw;
 	}
 
-	/* #title-wrapper-print > .header-white-print {
-		height: 100%;
-		overflow: hidden;
-		
-	} */
-
 	.header-white-mobile {
-		display: none;
-	}
-
-	.header-white-desktop {
 		display: none;
 	}
 	
@@ -1537,5 +1524,17 @@ footer address {
 		margin: 0;
 		text-align: right;
 		font-style: normal;          
+	}
+
+	.scroll-container {
+		display: none;
+	}
+
+	.scroll-content {
+		display: none;
+	}
+
+	.section-emphasis-scroll {
+		display: none;
 	}
 }
